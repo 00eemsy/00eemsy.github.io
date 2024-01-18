@@ -1,5 +1,3 @@
-var socket = io()
-
 const sweetVenom = document.getElementById('sweet-venom');
 const iland = document.getElementById('iland');
 const enoclock = document.getElementById('enoclock');
