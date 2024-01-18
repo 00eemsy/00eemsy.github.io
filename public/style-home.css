@@ -24,3 +24,4 @@ h1 {
 .animate {
     transition: top 1000ms ease-in-out, opacity 1000ms ease-in-out;
 }
+
