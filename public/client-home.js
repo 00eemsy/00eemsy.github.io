@@ -1,5 +1,3 @@
-var socket = io();
-
 const title = document.getElementById('title');
 title.classList.add('animate');
 
@@ -9,9 +7,5 @@ setTimeout(() => {
 }, 100);
 
 document.addEventListener('click', () => {
-    socket.emit('userPage');
-});
-
-socket.on('userPage', () => {
     window.location.href = ('/user');
-})
+});
