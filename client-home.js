@@ -1,5 +1,3 @@
-var socket = io();
-
 const title = document.getElementById('title');
 title.classList.add('animate');
 
