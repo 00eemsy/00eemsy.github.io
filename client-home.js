@@ -7,5 +7,5 @@ setTimeout(() => {
 }, 100);
 
 document.addEventListener('click', () => {
-    window.location.href = ('/user');
+    window.location.href = ('/enhaflix/user');
 });
