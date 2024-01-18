@@ -8,8 +8,11 @@ h2 {
     margin-top: 100px;
 }
 
-#recs {
+.list {
     display: inline-flex;
+    width: 100%;
+
+    overflow: scroll;
 }
 
 .show {
