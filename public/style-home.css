@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "bebas";
+    src: url(BebasNeue-Regular.woff2);
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: "bebas";
+    font-size: 200px;
+    color: #DB202C;
+
+    margin: 0;
+
+    position: fixed;
+    top: 0vh;
+    left: 30vw;
+
+    opacity: 0%;
+}
+
+.animate {
+    transition: top 1000ms ease-in-out, opacity 1000ms ease-in-out;
+}

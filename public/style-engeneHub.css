@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+#recs {
+    display: inline-flex;
+}
+
+.show {
+    margin: 20px;
+}
+
+.show img {
+    height: 400px;
+    width: 250px;
+    object-fit: cover;
+
+    border-radius: 4%;
+
+    margin: 10px;
+
+    transition: transform 1s ease;
+}
+
+.show img:hover {
+    transform: scale(1.15);
+}
