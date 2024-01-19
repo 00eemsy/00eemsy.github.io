@@ -1,4 +1,4 @@
-const sweetVenom = document.getElementById('sweet-venom');
+const sweetVenom = document.getElementById('header');
 const givenTaken = document.getElementById('given-taken');
 const drunkDazed = document.getElementById('drunk-dazed');
 const tamedDashed = document.getElementById('tamed-dashed');
