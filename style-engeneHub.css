@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "bebas";
+    src: url(BebasNeue-Regular.woff2);
+}
+
 body {
     background-color: black;
     color: white;
