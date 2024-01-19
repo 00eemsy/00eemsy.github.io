@@ -1,7 +1,91 @@
+@font-face {
+    font-family: "bebas";
+    src: url(BebasNeue-Regular.woff2);
+}
+
 body {
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+
+#header {
+    margin-bottom: 400px;
+}
+
+#left-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 750px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    background-image: linear-gradient(to right, rgba(0,0,0,1) 50%, rgba(0,0,0,0.5) 75%, rgba(0,0,0,0));
+}
+
+#enhaflix-logo {
+    font-family: "bebas";
+    font-size: 30px;
+    color: #DB202C;
+}
+
+#en-presents {
+    padding-top: 75px;
+    padding-left: 20px;
+
+    font-size: 20px;
+
+    /* display: inline-flex;
+    align-content: center; */
+}
+
+#logo {
+    width: 400px;
+    padding-bottom: 75px;
+}
+
+#buttons {
+    display: inline-flex;
+}
+
+.button {
+    padding: 10px;
+    margin: 10px;
+}
+
+i {
+    display: inline;
+}
+
+h3 {
+    display: inline;
+}
+
+#play-button {
+    background-color:#DB202C;
+}
+
+#my-list-button {
+    border: .5px solid white;
+}
+
+#img-banner {
+    float: right;
+    width: 75vw;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: initial;
 }
 
 h2 {
